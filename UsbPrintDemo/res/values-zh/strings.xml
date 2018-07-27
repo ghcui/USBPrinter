@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="terminal">终端</string>
+    <string name="app_name">USB打印2.2手机版</string>
+    
+    <string name="Add_Path">添加路径</string>
+    <!-- CheckBox 打印位图功能选项-->
+    <string name="Open">开启下载</string>
+    <string name="Close">关闭下载</string>
+	
+    <string name="Rotate">字体方向</string>
+    <string name="Normal">正常</string>
+    <string name="Rotation_90degrees">90度旋转</string>
+    
+    <string name="Align_Mode">对齐方式</string>
+    <string name="Left">靠左</string>
+    <string name="Center">居中</string>
+    <string name="Right">靠右</string>
+    
+    <string name="UnderLine">下&#160;&#160;划&#160;&#160;线</string>
+    <string name="Underline_1">下划线1</string>
+    <string name="Underline_2">下划线2</string>
+    <string name="Cancel">取消</string>
+    
+    <string name="Cutter">切刀</string>
+    <string name="Total">全切</string>
+    <string name="Half">半切</string>
+    
+    <string name="System">系统</string>
+    <string name="ExitSystem">退出</string>
+    <string name="VersionSystem">版本</string>
+    <string name="OpenBlackMark">开启黑标</string>
+    <string name="CloseBlackMark">关闭黑标</string>
+    
+    <string name="Htseat">识读字符</string>
+    <string name="No_print">不打印</string>
+    <string name="Above">上方</string>
+    <string name="Below">下方</string>
+    <string name="All">上下方</string>
+    
+    <string name="Linespace">行间距</string>
+    <string name="line_30">30</string>
+    <string name="line_40">40</string>
+    <string name="line_50">50</string>
+    <string name="line_60">60</string>
+    <string name="line_70">70</string>
+    
+    <string name="PrintSeflPage_btn">自检页</string>
+    <string name="PrinterInfo_btn">打印机信息</string>
+    <string name="PrintTest_btn">文本打印</string>
+    <string name="PrintTicket_btn">小票打印</string>
+    <string name="Clear_btn">清除</string>
+    <string name="AddPath_btn">增加</string>
+    <string name="ClearPath_btn">清除</string>
+    <string name="Load_Bmp_btn">下载位图</string>
+    <string name="Print_Bmp_btn">打印位图</string>
+    <string name="Print_Img_btn">打印图片</string>
+    <string name="Print_Conver_Img_btn">打印转换图片</string>
+    <string name="Bmp_path_et">显示Bmp图片路径</string>
+    <string name="Img_path_et">显示Img图片路径</string>
+    <string name="SelectBmpFile">选择Bmp</string>
+    <string name="SelectImgFile">选择Img</string>
+    <string name="PrintHorTable">打印水平制表</string>
+    <string name="Print1DBar">打印一维码</string>
+    <string name="Download_bmp_prompt">下载位图成功，请給打印机重新上电！</string>
+    <string name="The_path_cannot_be_empty">图片路径不能为空!</string>
+    
+    
+    
+    <string name="Title1_hint">标题1</string>
+    <string name="First_hint">第1列</string>
+    <string name="Title2_hint">标题2</string>
+    <string name="Second_hint">第2列</string>
+    <string name="Three_hint">第3列</string>
+    
+    <!-- <string name="Double_height_and_width">倍高倍宽模式</string>
+    <string name="print_1D_code">打印条形码</string>
+    <string name="print_2D_code">打印二维码</string>
+    <string name="Inverse_mode">反白模式</string>
+    <string name="Normal_mode">正常模式</string>
+    <string name="PrintInputContent">打印输入内容</string>
+    <string name="SetUnderLine">设定下划线</string>
+    <string name="Get_status">获取状态</string>
+    <string name="CutPaper">全&#160;&#160;&#160;&#160;切</string> -->
+    
+    <string name="USB_Driver_Success">驱动成功</string>
+    <string name="USB_Driver_Failed">驱动失败</string>
+    <!-- 打印输入内容提示-hint -->
+    <string name="Print_code_content_hint">请输入QRCode信息！</string>
+    <string name="Print_code_content_et">Welcome</string>
+    <string name="Print_test_times_hint">二维码宽度（1-9）</string>
+    <!-- 下载位图成功提示 -->
+    <string name="Download_bitmap_success">下载成功!</string>
+    <string name="Download_bitmap_failed">下载失败!</string>
+    
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <string-array>定义的是字符数组 -->
+    <string-array name="types">
+        <item>字体方向</item>
+        <item>对齐方式</item>
+        <item>下  划  线</item>
+        <item>条  形  码</item>
+        <item>二  维  码</item>
+    </string-array>
+ 	<!-- <integer-array>是整数数组 translatable="false"-->
+    <string-array name="linespace" >
+        <item>20</item>   
+        <item>40</item>  
+        <item>60</item> 
+        <item>80</item>
+        <item>100</item>   
+    </string-array>
+</resources>

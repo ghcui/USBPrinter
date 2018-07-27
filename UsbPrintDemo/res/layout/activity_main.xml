@@ -1,0 +1,421 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:id="@+id/linear_upper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linear_main_et"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/InputContent_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/editsharp"
+                android:hint="@string/Print_code_content_hint"
+                android:text="@string/Print_code_content_et"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/TestTimes_et"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:background="@drawable/editsharp"
+                android:gravity="center"
+                android:hint="@string/Print_test_times_hint"
+                android:inputType="number"
+                android:text="1"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_main_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/PrintSeflPage_btn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cornerbtn_style2"
+                android:text="@string/PrintSeflPage_btn" />
+            <Button
+                android:id="@+id/PrinterInfo_btn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/cornerbtn_style2"
+                android:text="@string/PrinterInfo_btn" />
+
+            <Button
+                android:id="@+id/PrintTest_btn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/cornerbtn_style"
+                android:text="@string/PrintTest_btn" />
+
+            <Button
+                android:id="@+id/PrintTicket_btn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/cornerbtn_style"
+                android:gravity="center"
+                android:text="@string/PrintTicket_btn" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/Get_State_et"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/editsharp3"
+            android:clickable="false"
+            android:editable="false"
+            android:gravity="left"
+            android:longClickable="false"
+            android:scrollbars="vertical"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Clear_btn"
+            style="@style/TextStyle02"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/cornerbtn_style2"
+            android:text="@string/Clear_btn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_nvbmp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linear_nvbmp_path"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SelectBmpFile"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.8"
+                android:background="@drawable/cornerbtn_style"
+                android:text="@string/SelectBmpFile" />
+
+            <EditText
+                android:id="@+id/Nvbmp_path_et"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="@drawable/editsharp"
+                android:editable="false"
+                android:ems="15"
+                android:hint="@string/Bmp_path_et"
+                android:textSize="12sp" >
+
+                <requestFocus />
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/Is_AddLoadBmpPath"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:text="@string/Open"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_nvbmp_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/Load_nvbmp_btn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cornerbtn_style"
+                android:text="@string/Load_Bmp_btn"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/Print_nvbmp_btn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/cornerbtn_style2"
+                android:text="@string/Print_Bmp_btn" />
+
+            <Button
+                android:id="@+id/Clear_Path_Btn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/cornerbtn_style"
+                android:text="@string/ClearPath_btn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_printer_model"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/D347QrBtn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cornerbtn_style"
+                android:text="@string/D347QR"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/D245QrBtn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/cornerbtn_style2"
+                android:text="@string/D245QR"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/T500IIQrBtn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/cornerbtn_style"
+                android:text="@string/T500IIQr"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_printer_model2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/Print_1DBar_Btn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cornerbtn_style2"
+                android:text="@string/Print1DBar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_printimgfile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/SelectImgFile"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.4"
+                android:background="@drawable/cornerbtn_style"
+                android:text="@string/SelectImgFile" />
+
+            <EditText
+                android:id="@+id/Img_path_et"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/editsharp"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/Img_path_et"
+                android:textSize="12sp" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/Print_Imgfile_Btn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.4"
+                android:background="@drawable/cornerbtn_style2"
+                android:text="@string/Print_Img_btn" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_conver_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/Print_ConverImg_Btn"
+                style="@style/TextStyle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.4"
+                android:background="@drawable/cornerbtn_style2"
+                android:text="@string/Print_Conver_Img_btn" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_SetParams"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <!-- <EditText
+                android:id="@+id/SeatContent1_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/editsharp4"
+                android:gravity="center"
+                android:hint="@string/Title1_hint"
+                android:text="姓名"
+                android:textSize="14sp"
+                android:visibility="gone" /> -->
+
+            <EditText
+                android:id="@+id/SetColumn1_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/editsharp4"
+                android:gravity="center"
+                android:hint="@string/First_hint"
+                android:inputType="number"
+                android:text="8"
+                android:textSize="14sp" />
+
+            <!-- <EditText
+                android:id="@+id/SeatContent2_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/editsharp4"
+                android:gravity="center"
+                android:hint="@string/Title2_hint"
+                android:text="班级"
+                android:textSize="14sp"
+                android:visibility="gone" /> -->
+
+            <EditText
+                android:id="@+id/SetColumn2_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/editsharp4"
+                android:gravity="center"
+                android:hint="@string/Second_hint"
+                android:inputType="number"
+                android:text="16"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/SetColumn3_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/editsharp4"
+                android:gravity="center"
+                android:hint="@string/Three_hint"
+                android:text="25"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Print_Seat_Btn"
+            style="@style/TextStyle02"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/cornerbtn_style"
+            android:text="@string/PrintHorTable" />
+
+        <TextView
+            android:id="@+id/HTSeat_tv"
+            style="@style/TextStyle02"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="00 00 00" />
+    </LinearLayout>
+
+</LinearLayout>

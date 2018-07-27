@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="terminal">Terminal</string>
+    <string name="app_name">UsbPrint2.2phone</string>
+    
+    <string name="Add_Path">Add path</string>
+    <!-- CheckBox 打印位图功能选项-->
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+	
+    <string name="Rotate">Rotate</string>
+    <string name="Normal">Normal</string>
+    <string name="Rotation_90degrees">Rotation 90D</string>
+    
+    <string name="Align_Mode">Align mode</string>
+    <string name="Left">Left</string>
+    <string name="Center">Center</string>
+    <string name="Right">Right</string>
+    
+    <string name="UnderLine">UnderLine</string>
+    <string name="Underline_1">Underline_1</string>
+    <string name="Underline_2">Underline_2</string>
+    <string name="Cancel">Cancel</string>
+    
+    <string name="Cutter">Cutter</string>
+    <string name="Total">Total cut</string>
+    <string name="Half">Half cut</string>
+    
+    <string name="System">System</string>
+    <string name="ExitSystem">Exit</string>
+    <string name="VersionSystem">Version</string>
+    <string name="OpenBlackMark">Open BlackMark</string>
+    <string name="CloseBlackMark">Close BlackMark</string>
+    
+    <string name="Htseat">Htseat</string>
+    <string name="No_print">Not print</string>
+    <string name="Above">Above</string>
+    <string name="Below">Below</string>
+    <string name="All">Above and below</string>
+    
+    <string name="Linespace">Linespace</string>
+    <string name="line_30">30</string>
+    <string name="line_40">40</string>
+    <string name="line_50">50</string>
+    <string name="line_60">60</string>
+    <string name="line_70">70</string>
+    
+    <string name="PrintSeflPage_btn">Print SeflPage</string>
+    <string name="PrinterInfo_btn">Printer Info</string>
+    <string name="PrintTest_btn">Print Text</string>
+    <string name="PrintTicket_btn">Print ticket</string>
+    <string name="Clear_btn">Clear</string>
+    <string name="AddPath_btn">Add Path</string>
+    <string name="ClearPath_btn">Clear Path</string>
+    <string name="Load_Bmp_btn">Load bitmap</string>
+    <string name="Print_Bmp_btn">Print bitmap</string>
+    <string name="Print_Img_btn">Print Img</string>
+    <string name="Print_Conver_Img_btn">Print Conver Img</string>
+    <string name="Bmp_path_et">Show the path of bmp file</string>
+    <string name="Img_path_et">Show the path of img file</string>
+    <string name="SelectBmpFile">BMP File</string>
+    <string name="SelectImgFile">IMG File</string>
+    <string name="PrintHorTable">Print Horizontal Tabulation</string>
+    <string name="Print1DBar">Print 1DBar</string>
+    <string name="Download_bmp_prompt">Download the bitmap successfully, please restart the printer!</string>
+    <string name="The_path_cannot_be_empty">The picture path cannot be empty!</string>
+    
+    <string name="bmp_1">1</string>
+    <string name="bmp_2">2</string>
+    <string name="bmp_3">3</string>
+    <string name="bmp_4">4</string>
+    <string name="bmp_5">5</string>
+    <string name="bmp_6">6</string>
+    
+    <string name="iFstype_1">1.打印头型号ID</string>
+    <string name="iFstype_2">2.类型ID</string>
+    <string name="iFstype_3">3.固件版本</string>
+    <string name="iFstype_4">4.生产厂商信息</string>
+    <string name="iFstype_5">5.打印机型号</string>
+    <string name="iFstype_6">6.支持的中文编码格式</string>
+    
+    <!-- <string name="Double_height_and_width">Double high wide</string>
+    <string name="print_1D_code">Print 1D code</string>
+    <string name="print_2D_code">Print 2D code</string>
+    <string name="Inverse_mode">Inverse mode</string>
+    <string name="Normal_mode">Normal mode</string>
+    <string name="PrintInputContent">Print input content</string>
+    <string name="SetUnderLine">Set underline</string>
+    <string name="Get_status">Get status</string>
+    <string name="CutPaper">CutPaper</string> -->
+    
+    <string name="USB_Driver_Success">USB driver success</string>
+    <string name="USB_Driver_Failed">USB driver failed</string>
+    <!-- hint -->
+    <string name="Print_code_content_hint">Please enter QRCode information!</string>
+    <string name="Print_code_content_et">Welcome</string>
+    <string name="Print_test_times_hint">Input test times</string>
+    <!-- download success hint -->
+    <string name="Download_bitmap_success">Download bitmap success!</string>
+    <string name="Download_bitmap_failed">Download bitmap failed!</string>
+    
+    <string name="D347QR">D347QrCode</string>
+    <string name="D245QR">D245QrCode</string>
+    <string name="T500IIQr">T500IIQrCode</string>
+    
+    
+</resources>
